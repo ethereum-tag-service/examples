@@ -3,12 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsc && node dist/index.js"
+    "dev": "vite"
   },
   "dependencies": {
     "@ethereum-tag-service/sdk-core": "^0.0.5"
   },
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vite": "^4.4.5"
   }
 }

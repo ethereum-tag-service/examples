@@ -4,8 +4,6 @@ Use `sdk-core` to create a tagging record.
 
 ## run locally
 
-Note this example doesn't use a browser wallet extension (like Metamask) but rather uses the Viem `privateKeyToAccount()` function which requires you to provide a private key to a wallet with some [Artbitrum Sepolia ETH](https://docs.arbitrum.io/stylus/reference/testnet-information#faucets) within the script.
-
 ```bash
 npm install
 npm run dev
