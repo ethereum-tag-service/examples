@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <h1>ETS Examples: sdk-core read</h1>
+  <div id="app">Loading...(takes a few seconds)</div>
+  <script type="module">
+    import { tag, tagExists } from './index.ts';
+    document.querySelector('#app').innerHTML = `<div style="margin-bottom: 16px;">Tag: ${tag}<br />Tag exists: ${tagExists}</div>`;
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "sdk-core-read",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "@ethereum-tag-service/sdk-core": "^0.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
